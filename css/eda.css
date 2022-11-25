@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+.head,.main_design{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.other,.number,.email,.logo,.basket,.main_design,.map{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    align-content: flex-start;
+}
+.tx{
+    padding: 20px 30px 20px 30px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+}
+.img{  
+    padding-top: 15px;
+    padding-left: 12px;
+    width: 62px;
+    height: 49px;
+}
+.circle,.circle_bas{
+    width: 87px;
+    height: 86px;   
+    border-radius: 50%;
+    background: #FFC700;
+}
+.circle_bas{
+    width: 62px;
+    height: 62px;
+}
+.icon{
+    padding-left: 15px;
+    padding-top: 16px;
+    width: 33px;
+    height: 33px;
+}
+.circle_bas:hover{
+    transition: 0.5s;
+    background-color:orange;
+}
+.shit,.numb{
+    min-width: 120px;
+}
+.shit{
+    font-weight: 700;
+}
+.about_us{
+    min-width: 45px;
+}
+.main_design{
+    padding-top:70px;
+    justify-content: space-around;
+    align-content: flex-start;
+    /*max-width: 1020px;*/
+}
+.love{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    min-width: 284px;
+    padding-top: 170px;
+}
+.no_love{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    min-width: 284px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.i_love{
+    height: 470px;
+    width: 400px;
+    background-image: url(/images/Main\ Design.png);
+}
+.q{
+    margin: 2px;
+    max-width: 290px;
+}
+
+.map_circle{
+    border-radius:50%;
+    width: 313px;
+    height: 313px;
+    background: #9395b1;
+}
